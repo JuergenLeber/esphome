@@ -1,5 +1,5 @@
 ethernet:
-  type: W5500
+  type: DM9051
   clk_pin: 19
   mosi_pin: 21
   miso_pin: 23
@@ -12,4 +12,3 @@ ethernet:
     gateway: 192.168.178.1
     subnet: 255.255.255.0
   domain: .local
-  
